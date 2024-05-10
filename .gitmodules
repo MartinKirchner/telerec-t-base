@@ -4,19 +4,19 @@
 	branch = main
 [submodule "roles/compose_hull"]
 	path = roles/compose_hull
-	url = https://github.com/ct-Open-Source/telerec-t-compose-hull.git
+	url = git@github.com:MartinKirchner/telerec-t-compose-hull.git
 	branch = main
 [submodule "roles/traefik"]
 	path = roles/traefik
-	url = https://github.com/ct-Open-Source/telerec-t-traefik.git
+	url = git@github.com:MartinKirchner/telerec-t-traefik.git
 	branch = main
 [submodule "roles/portainer"]
 	path = roles/portainer
-	url = https://github.com/ct-Open-Source/telerect-t-portainer.git
+	url = git@github.com:MartinKirchner/telerec-t-portainer.git
 	branch = main
 [submodule "roles/watchtower"]
 	path = roles/watchtower
-	url = https://github.com/ct-Open-Source/telerec-t-watchtower.git
+	url = git@github.com:MartinKirchner/telerec-t-watchtower.git
     branch = main
 [submodule "roles/autoheal"]
 	path = roles/autoheal
