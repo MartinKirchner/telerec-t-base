@@ -26,3 +26,7 @@ autoheal:
     enabled: false
     token: ""
     channel_id: ""
+
+mariadb:
+  name: mariadb
+  directory: "{{ docker_dir }}/mariadb"

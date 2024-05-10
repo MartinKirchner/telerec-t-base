@@ -1,0 +1,6 @@
+- hosts: server
+  become: false
+  roles:
+    - role: mariadb
+      vars:
+        service_cfg: "{{ mariadb }}"
