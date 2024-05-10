@@ -1,0 +1,11 @@
+ansible_user: root
+admin:
+  name: root
+  key: "{{ lookup('file', '~/.ssh/id_ed25519.pub') }}"
+  email: "martin@m-kirchner.de"
+locale: de_DE.UTF-8
+timezone: Europe/Berlin
+docker_dir: "/docker"
+mariadb:
+  backup_dir: "/srv/dev-disk-by-uuid-aae3d1d5-8831-4675-8f4d-2e9a501cc973/mariadb/backup"
+  root_password: "changeme"

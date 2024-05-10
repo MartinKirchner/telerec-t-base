@@ -1,5 +1,5 @@
 [server]
-192.168.7.140
+nas.fritz.box
 
 [server:vars]
 ansible_become_method=sudo
