@@ -25,3 +25,6 @@
 [submodule "roles/mariadb"]
 	path = roles/mariadb
 	url = git@github.com:MartinKirchner/telerect-mariadb.git
+[submodule "roles/whoami"]
+	path = roles/whoami
+	url = git@github.com:MartinKirchner/telere-ct-whoami.git

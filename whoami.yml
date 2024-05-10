@@ -1,0 +1,6 @@
+- hosts: server
+  become: false
+  roles:
+    - role: whoami
+      vars:
+        service_cfg: "{{ whoami }}"

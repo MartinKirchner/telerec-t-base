@@ -27,6 +27,10 @@ autoheal:
     token: ""
     channel_id: ""
 
+whoami:
+  name: whoami
+  directory: "{{ docker_dir }}/whoami"
+
 mariadb:
   name: mariadb
   directory: "{{ docker_dir }}/mariadb"
