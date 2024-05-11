@@ -38,3 +38,7 @@ mariadb:
 nextcloud:
   name: nextcloud
   directory: "{{ docker_dir }}/nextcloud"
+
+paperless:
+  name: paperless
+  directory: "{{ docker_dir }}/paperless"

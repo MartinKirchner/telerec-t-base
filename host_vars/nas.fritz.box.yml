@@ -12,3 +12,14 @@ nextcloud:
   domain: "nextcloud.home.m-kirchner.de"
   data_dir: "/srv/dev-disk-by-uuid-aae3d1d5-8831-4675-8f4d-2e9a501cc973/nextcloud"
   ip: 192.168.49.99
+paperless:
+  domain: "paperless.home.m-kirchner.de"
+  directory: "{{ docker_dir }}/paperless"
+  data_dir: "/srv/dev-disk-by-uuid-aae3d1d5-8831-4675-8f4d-2e9a501cc973/paperless"
+  inbox_dir: "/srv/dev-disk-by-uuid-aae3d1d5-8831-4675-8f4d-2e9a501cc973/paperless-inbox"
+  userId: "1028"
+  groupId: "1028"
+  secret: "changeme"
+  db:
+    user: "paperless"
+    password: "createMeInMariaDB"
