@@ -28,3 +28,6 @@
 [submodule "roles/whoami"]
 	path = roles/whoami
 	url = git@github.com:MartinKirchner/telere-ct-whoami.git
+[submodule "roles/nextcloud"]
+	path = roles/nextcloud
+	url = git@github.com:MartinKirchner/telere-ct-nextcloud.git

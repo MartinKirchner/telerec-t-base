@@ -1,0 +1,6 @@
+- hosts: server
+  become: true
+  roles:
+    - role: nextcloud
+      vars:
+        service_cfg: "{{ nextcloud }}"

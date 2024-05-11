@@ -34,3 +34,7 @@ whoami:
 mariadb:
   name: mariadb
   directory: "{{ docker_dir }}/mariadb"
+
+nextcloud:
+  name: nextcloud
+  directory: "{{ docker_dir }}/nextcloud"
