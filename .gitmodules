@@ -40,3 +40,6 @@
 [submodule "roles/pihole"]
 	path = roles/pihole
 	url = git@github.com:MartinKirchner/telere-ct-pihole.git
+[submodule "roles/openhab"]
+	path = roles/openhab
+	url = git@github.com:MartinKirchner/telere-ct-openhab.git
