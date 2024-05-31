@@ -37,3 +37,6 @@
 [submodule "roles/unifi"]
 	path = roles/unifi
 	url = git@github.com:MartinKirchner/telere-ct-unifi.git
+[submodule "roles/pihole"]
+	path = roles/pihole
+	url = git@github.com:MartinKirchner/telere-ct-pihole.git

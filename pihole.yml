@@ -1,0 +1,6 @@
+- hosts: server
+  become: true
+  roles:
+    - role: pihole
+      vars:
+        service_cfg: "{{ pihole }}"

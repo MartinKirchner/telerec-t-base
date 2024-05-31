@@ -25,3 +25,8 @@ paperless:
 unifi:
   domain: "nas.fritz.box"
   directory: "{{ docker_dir }}/unifi"
+pihole:
+  domain: "pihole.home.m-kirchner.de"
+  directory: "{{ docker_dir }}/pihole"
+  dnssec: true
+  upstreamdns: 1.1.1.1
