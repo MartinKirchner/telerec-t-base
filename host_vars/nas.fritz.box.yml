@@ -22,4 +22,6 @@ paperless:
   secret: "changeme"
   db:
     user: "paperless"
-    password: "createMeInMariaDB"
+unifi:
+  domain: "nas.fritz.box"
+  directory: "{{ docker_dir }}/unifi"

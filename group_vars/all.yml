@@ -42,3 +42,7 @@ nextcloud:
 paperless:
   name: paperless
   directory: "{{ docker_dir }}/paperless"
+
+unifi:
+  name: unifi
+  directory: "{{ docker_dir }}/unifi"

@@ -34,3 +34,6 @@
 [submodule "roles/paperless"]
 	path = roles/paperless
 	url = git@github.com:MartinKirchner/telere-ct-paperless-ng.git
+[submodule "roles/unifi"]
+	path = roles/unifi
+	url = git@github.com:MartinKirchner/telere-ct-unifi.git
