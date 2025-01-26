@@ -26,3 +26,31 @@ autoheal:
     enabled: false
     token: ""
     channel_id: ""
+
+whoami:
+  name: whoami
+  directory: "{{ docker_dir }}/whoami"
+
+mariadb:
+  name: mariadb
+  directory: "{{ docker_dir }}/mariadb"
+
+nextcloud:
+  name: nextcloud
+  directory: "{{ docker_dir }}/nextcloud"
+
+paperless:
+  name: paperless
+  directory: "{{ docker_dir }}/paperless"
+
+unifi:
+  name: unifi
+  directory: "{{ docker_dir }}/unifi"
+
+homeassistant:
+  name: homeassistant
+  directory: "{{ docker_dir }}/homeassistant"
+
+owntracks:
+  name: owntracks
+  directory: "{{ docker_dir }}/owntracks"

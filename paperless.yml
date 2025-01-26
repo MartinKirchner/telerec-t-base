@@ -1,0 +1,6 @@
+- hosts: server
+  become: true
+  roles:
+    - role: paperless
+      vars:
+        service_cfg: "{{ paperless }}"

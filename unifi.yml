@@ -1,0 +1,6 @@
+- hosts: server
+  become: true
+  roles:
+    - role: unifi
+      vars:
+        service_cfg: "{{ unifi }}"
