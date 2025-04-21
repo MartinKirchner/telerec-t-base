@@ -22,9 +22,6 @@
 	path = roles/autoheal
 	url = https://github.com/ct-Open-Source/telerec-t-autoheal.git
 	branch = main
-[submodule "roles/telere-ct-homeassitant"]
-	path = roles/telere-ct-homeassitant
-	url = git@github.com:MartinKirchner/telere-ct-homeassitant.git
 [submodule "roles/paperless"]
 	path = roles/paperless
 	url = git@github.com:MartinKirchner/telere-ct-paperless-ng.git
