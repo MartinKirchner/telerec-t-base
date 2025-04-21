@@ -28,3 +28,6 @@
 [submodule "roles/nextcloud"]
 	path = roles/nextcloud
 	url = git@github.com:MartinKirchner/telere-ct-nextcloud.git
+[submodule "homeassistant"]
+	path = roles/homeassitant
+	url = git@github.com:MartinKirchner/telere-ct-homeassitant.git
