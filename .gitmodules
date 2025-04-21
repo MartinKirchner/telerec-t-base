@@ -31,3 +31,6 @@
 [submodule "homeassistant"]
 	path = roles/homeassitant
 	url = git@github.com:MartinKirchner/telere-ct-homeassitant.git
+[submodule "mqtt"]
+	path = roles/mqtt
+	url = git@github.com:MartinKirchner/telerec-t-mqtt.git
